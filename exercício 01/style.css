@@ -1,0 +1,52 @@
+* { box-sizing: border-box; }
+
+body {
+  font-family: system-ui, -apple-system, "Segoe UI", sans-serif;
+  background: #f8fafc;
+  color: #0f172a;
+  padding: 24px;
+  margin: 0;
+}
+
+h1 { font-size: 1.35rem; margin: 0 0 1rem; }
+
+form {
+  display: grid;
+  gap: 0.6rem;
+  max-width: 380px;
+  background: #ffffff;
+  padding: 1.1rem;
+  border: 1px solid #e2e8f0;
+  border-radius: 12px;
+}
+
+label { font-size: 0.85rem; color: #475569; display: grid; gap: 0.25rem; }
+
+input {
+  padding: 0.5rem 0.6rem;
+  border: 1px solid #cbd5e1;
+  border-radius: 8px;
+  font-size: 0.95rem;
+}
+
+button {
+  margin-top: 0.4rem;
+  padding: 0.6rem 1rem;
+  border: 0;
+  border-radius: 8px;
+  background: #2563eb;
+  color: #fff;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+#lista p {
+  background: #ffffff;
+  border: 1px solid #e2e8f0;
+  border-radius: 10px;
+  padding: 0.65rem 0.8rem;
+  margin: 0.5rem 0;
+  font-size: 0.95rem;
+}
+
+#total, #qtd-pedidos, #total-geral, #resumo { font-weight: 600; }
